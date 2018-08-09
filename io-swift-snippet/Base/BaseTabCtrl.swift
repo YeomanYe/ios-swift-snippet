@@ -14,16 +14,12 @@ class BaseTabCtrl : UITabBarController{
     var dataSource:Array<NSDictionary>?
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder);
-        if(nil != self){
-            didInitialize();
-        }
+        didInitialize();
         return nil;
     }
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil);
-        if(nil != self) {
-            didInitialize();
-        }
+        didInitialize();
     }
     func didInitialize(){
         if(nil == tintColor){

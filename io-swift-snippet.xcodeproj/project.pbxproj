@@ -13,6 +13,7 @@
 		F67EE3422C79FA1FCAC2CA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67EE7F8929410B20A29B970 /* Main.storyboard */; };
 		F67EE64DFFEF306FE44664B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EEC4B4984E606890F1740 /* ViewController.swift */; };
 		F67EE9CEACCCFCD65A2DF6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67EEF6BDD66BDD19F830883 /* Assets.xcassets */; };
+		F67EEB6DADC6EF4E878B4DE0 /* TabCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EE24045CB0980E7871DA4 /* TabCtrl.swift */; };
 		F67EEE67C6B6453AE76D1617 /* io_swift_snippetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EE07895584CF36BC6BB51 /* io_swift_snippetTests.swift */; };
 		F67EEF048B8F53803929DD4C /* io_swift_snippetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EEE79237C081FA121E372 /* io_swift_snippetUITests.swift */; };
 		F67EEF39F02A204A34667041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67EEA262D01B4E18F4CE186 /* LaunchScreen.storyboard */; };
@@ -40,6 +41,7 @@
 		4682AC6D211991BC00F21C1A /* BaseTabCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabCtrl.swift; sourceTree = "<group>"; };
 		F67EE07895584CF36BC6BB51 /* io_swift_snippetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = io_swift_snippetTests.swift; sourceTree = "<group>"; };
 		F67EE1099DFA908677071BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67EE24045CB0980E7871DA4 /* TabCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCtrl.swift; sourceTree = "<group>"; };
 		F67EE2F091100A356A369848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F67EE3DE7C496397B6D32623 /* io-swift-snippetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "io-swift-snippetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67EE467B6ED58DD7F5F44C9 /* io-swift-snippetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "io-swift-snippetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4682AC6A2119918500F21C1A /* ListViewCtrl.swift */,
+				F67EE24045CB0980E7871DA4 /* TabCtrl.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				F67EE64DFFEF306FE44664B5 /* ViewController.swift in Sources */,
 				4682AC6B2119918500F21C1A /* ListViewCtrl.swift in Sources */,
 				4682AC6E211991BC00F21C1A /* BaseTabCtrl.swift in Sources */,
+				F67EEB6DADC6EF4E878B4DE0 /* TabCtrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
